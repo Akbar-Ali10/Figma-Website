@@ -1,0 +1,448 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+
+}
+/* body{
+    scroll-behavior: smooth;
+} */
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #D2E6E4;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    position: fixed;
+    width: 100%;
+}
+
+.header-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+
+}
+
+.header-main ul li {
+    display: inline-block;
+    padding-right: 40px;
+
+}
+.header-main ul li:hover{
+    color: orangered;
+
+}
+
+.btn1 {
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: white;
+    color: #0B7077;
+    border: 1px solid white;
+
+}
+.btn1:hover{
+    background-color: #0B7077;
+    color: white;
+    border: 1px solid #0B7077;
+    transition: all 0.5s;
+
+}
+
+
+.btn2 {
+    padding: 10px 20px;
+    border-radius: 8px;
+    background: #0B7077;
+    color: white;
+    border: 1px solid #0B7077;
+    margin-left: 10px;
+}
+.btn2:hover{
+    background-color: white;
+    color: #0B7077;
+    border: 1px solid white;
+    transition: all 0.5s;
+
+}
+
+/* //////////////////////////////////////////////////////////////////////////// */
+
+.banner {
+    background-color: #D2E6E4;
+}
+
+.banner-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.banner-btn {
+    display: flex;
+    align-items: center;
+
+}
+
+.banner-2 h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.btn3:hover{
+    background-color: white;
+    color: orangered;
+    border: 1px solid white;
+    transition: all 0.5s;
+}
+.btn3 {
+    margin-right: 10px;
+    background-color: orangered;
+    color: white;
+    border: 1px solid orangered;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////// */
+.cards {
+    margin-bottom: 100px;
+    /* flex-wrap: wrap; */
+}
+
+.first-card-content h2 {
+    coframe-btnlor: #0B7077;
+
+}
+.first-card-content p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.card-2 button{
+    background-color: white;
+    color: #0B7077;
+    border: 1px solid #0B7077;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.card-2 button:hover{
+    background-color: #0B7077;
+    color: white;
+    border: 1px solid #0B7077;
+    border: 1px solid #0B7077;
+    transition: all 0.5s;
+}
+.frame-btn button:hover {
+    background-color: #0B7077;
+    color: white;
+}
+.frame-btn button:hover{
+    background-color: #0B7077;
+    color: white;
+    transition: all 0.5s;
+}                             
+
+.card-3 {
+    display: flex;
+    align-items: center;
+    /* flex-wrap: wrap; */
+}
+
+.first-card-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-2 {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.cards-main h1 {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.first-card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+}
+
+.first-card {
+    margin-right: 10px;
+}
+
+.first-card-btn button {
+    padding: 6px 16px;
+    background-color: #0B7077;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid #0B7077;
+}
+
+.first-card-btn p {
+    color: orangered;
+}
+
+.first-card-content {
+    -webkit-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    padding: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+/* //////////////////////////////////////////////////////////////////////////// */
+
+.frame-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ions-1 {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.frame-btn h1 {
+    font-size: 40px;
+    color: #0B7077;
+    margin-top: 20px;
+}
+
+.frame-btn button {
+    color: #0B7077;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid white;
+
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.frame {
+    margin-top: 100px;
+}
+
+/* ///////////////////////////////////////// */
+
+.girl {
+    margin-top: 80px;
+    margin-bottom: 50px;
+    background-color: red;
+}
+
+.star-1 img {
+    color: black;
+    background-color: rgb(231, 26, 26);
+}
+
+.star-1 {
+    display: flex;
+    align-items: center;
+
+}
+.star-1{
+    margin-top: 10px;
+    color: white;
+   
+}
+.star-1 img{
+    padding-right: 10px;
+    
+}
+
+.girl-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.girl-side-1 h1{
+    font-size: 45px;
+    color: white;
+    margin-bottom: 40px;
+}
+.girl-btn button{
+    padding: 10px 20px ;
+    border-radius: 10px;
+    margin-top: 40px;
+    color: #0B7077;
+    border: 1px solid white;
+
+}
+.girl-btn button:hover{
+    background-color: #0B7077;
+    color: white;
+    border: 1px solid #0B7077;
+    transition: all 0.5s;
+}
+/* ////////////////////////////////////////////////////////////////////////////////////////////// */
+footer{
+    margin-top: 100px;
+    /* margin-bottom: 50px;/ */
+    background-image: url(./color.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.footer-main{
+    padding-top: 100px;
+    padding-bottom: 50px;
+   display: flex;
+   align-items: center;
+   /* justify-content: space-between; */
+}
+
+.footer-3-div{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    margin-left: 200px;
+}
+.footer-same{
+    display: flex;
+    align-items: center;
+}
+.footer-same img{
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.f-1 h4{
+    padding-bottom: 30px;
+}
+.f-1 ul li, .f-2 ul li{
+    color: #0B7077;
+    line-height: 30px;
+}
+.f-1 ul li:hover{
+    color: orangered;
+}
+.f-2 ul li:hover{
+    color: orangered;
+}
+.f-2{
+    margin-left: 100px;
+    
+}
+.f-2 h4{
+    padding-bottom: 30px;
+}
+.f-3{
+    margin-left: 100px;
+}
+.f-3 h4{
+    padding-bottom: 30px;
+}
+.input{
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+    padding: 6px 20px;
+    background-color: white;
+}
+.input input{
+    border: 1px solid white;
+    padding: 4px 10px;
+    /* color: #0B7077; */
+}
+.input button{
+    padding: 4px 10px;
+    background-color: #0B7077;
+    color: white;
+    border-radius: 4px;
+    border: 1px solid #0B7077;
+}
+/* //////////////////////////////// */
+
+/* .scroll{
+    padding: 8px 20px;
+    background-color: #0B7077;
+    color: white;
+    border-radius: 8px;
+    border: 1px solid #0B7077;
+    position: absolute;
+    bottom: 50px;
+    right: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    } */
+
+/* ///////////////////////////////////////// */
+
+@media screen and (max-width:700px ){
+    .header-main{
+        flex-direction: column;
+    }    
+}
+
+@media screen and (max-width: 700px) {
+    .banner-main{
+        flex-direction: column;
+        padding-left: 50%;
+
+    }
+    
+   
+}
+@media screen and (max-width: 700px){
+    .card-3{
+        flex-direction: column;
+        padding-left: 50%;
+    }  
+    .cards-main{
+        flex-direction: column;
+        padding-left: 50%;
+    }  
+}
+
+
+@media screen and (max-width: 700px) {
+    .frame-main {
+        flex-direction: column;
+        padding-left: 50%;
+    }
+}
+@media screen and (max-width: 700px){
+    .frame-main{
+        flex-direction: column;
+        padding-left: 50%;
+
+    }
+}
+@media screen and (max-width: 700px ){
+    .girl-main{
+        flex-direction: column;
+        padding-left: 50%;
+
+    }
+    
+}
+@media screen and (max-width: 700px  ){
+    .footer-main{
+        flex-direction: column;
+        padding-left: 50%;
+    }    
+    .footer-3-div{
+        flex-direction: column;
+        padding-left: 500px;
+    }
+    .f-3{
+        flex-direction: column;
+        padding-right: 500px;
+    }
+}
